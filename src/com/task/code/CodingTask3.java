@@ -7,7 +7,7 @@ public class CodingTask3 {
 		//create a 2D array of integer value , print the sum of all the all numbers.
 	
 
-		
+		/*		
 		int [][] intArray = {{10,20,30},
 				{40,50,60},
 				{70,80,90}};
@@ -31,29 +31,21 @@ public class CodingTask3 {
 		System.out.println(sum);
 		
 		
+*/		
 		
 		
-		
-	/*	
-		
-	 int[][] nums = new int[2][3];
-	  nums[0][0] = 1;
-	  nums[0][1] = 2;
-	  nums[0][2] = 3;
-	  nums[1][0] = 4;
-	  nums[1][1] = 5;
-	  nums[1][2] = 6;
-			 int sum = 0;
+	int [][] nums = {{1,2,3},{4,5,6,},{7,8,9}};
+		 int sum = 0;
 	 for(int i = 0; i < nums.length; i++) {
-		 
-		 sum = sum+nums[i];
+		 for(int k = 0; k < nums.length; k++) {
+		 sum = sum+nums[i][k];
 	 }
-	   System.out.println(sum);
 	}
 	 
+	   System.out.println(sum);
 		
 		
-*/
+
 	}
 
 }

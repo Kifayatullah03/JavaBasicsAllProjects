@@ -9,6 +9,29 @@ public class CodingTask2 {
 		//(use 2 different loops
 
 		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Please Enter the size of the array that you want to create");
+		int arraySize = scan.nextInt();
+		String [] countryArray = new String [arraySize];
+		
+		for(int x = 0; x < countryArray.length; x++) {
+			countryArray[x] = scan.next();
+		}
+		for(String element : countryArray) {
+			if(element.equalsIgnoreCase("usa")) {
+				System.out.println("Washington DC");
+			}else if(element.equalsIgnoreCase("turkey")) {
+				System.out.println("Ankara");
+			}else if(element.equalsIgnoreCase("thiland")) {
+				System.out.println("Bankok");
+			}else {
+				System.out.println("country not supported by my great java program version 1.0");
+		
+			}
+		}
+		
+		
+	/*	Scanner scan = new Scanner(System.in);
 		System.out.println("Please Enter the size of the array that you want to create");
 		int arraySize=scan.nextInt();
 		String [] countryArray=new String[arraySize];
@@ -27,7 +50,7 @@ public class CodingTask2 {
 				System.out.println("country not supported by my great java program version 1.0");
 			}
 		}
-		
+		*/
 		
 		
 		
